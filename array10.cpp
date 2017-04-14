@@ -1,0 +1,19 @@
+#include <iostream> 
+using namespace std;
+
+int main () {
+int i;
+string nama[10];
+	for (i=0;i<10;i++) 
+	{
+
+		cout << "isi nama ke" <<": ";
+		cin >> nama[i]; 
+	}
+cout << "====  Nama yang telah diinput  =====" << endl;
+
+	for (i=0;i<10;i++) 
+	cout << nama[i] << endl;
+	
+	return 0;
+	}
